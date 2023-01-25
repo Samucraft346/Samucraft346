@@ -1,0 +1,23 @@
+.contenedor{
+    text-align: center;
+    vertical-align: center;
+}
+#1_img{
+    hyphenate-resource: url("https://www.google.es/");
+}
+#2_img{
+    hyphenate-resource: url("https://es.wikipedia.org/wiki/CSS");
+}
+#3_img{
+    hyphenate-resource: url("https://es.wikipedia.org/wiki/HTML");
+}
+#Boton_atras{
+    display: inline-block;
+    border: none;
+    background-color: #35C8E6;
+    color: black;
+    font-size: 50px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50px;
+}

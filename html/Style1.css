@@ -1,0 +1,119 @@
+@charset "iso-8859-15";
+    /* Base */
+    body{
+        background-color: #5D688C;
+    }
+    mark{
+        background-color: #35C8E6;
+        color: #8C324A;
+    }
+    h2{
+        color: #0F2799;
+    }
+    p{
+        color: #F299A9;
+    }
+    u{
+        color: black;
+        line-height: 2px;
+
+    }
+    /* Variables */
+    .centrado {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .derecha{
+        display: block;
+        margin-left: auto;
+    }
+    .izquierda{
+        display: block;
+        margin-right: auto;
+    }
+    .SOMP{
+        background-color: yellowgreen;
+    }
+    .AW{
+        background-color: chocolate;
+    }
+    .AO{
+        background-color: aqua;
+    }
+    .FOL{
+        background-color: dimgrey;
+    }
+    .RL{
+        background-color: yellow;
+    }
+    /* Tablas */
+    table {
+        border-collapse: collapse;
+        background-color: white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    caption{
+        border: 1px solid black;
+        padding: 5px;
+        background-color: white;
+    }
+    th, td {
+        text-align: center;
+        border: 1px solid black;
+        padding: 15px;
+    }
+    /* Imagenes en fila*/
+    .tresenfila{
+        text-align: center;
+    }
+    #1_imagen{
+        display: grid;
+        justify-content: start;
+    }
+    #2_imagen{
+        display: grid;
+        justify-content: center;
+    }
+    #3_imagen{
+        display: grid;
+        justify-content: end;
+    }
+    /* Cabecera fija*/
+    .cuerpo_cabecera{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .a{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    #Preguntas{
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+    #Tabla{
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+    #Ejercicio1{
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+    #Dato\ ultra\ secreto{
+        float: right;
+        background-color: green;
+    }
+
+
+

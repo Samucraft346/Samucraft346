@@ -1,0 +1,89 @@
+/*Essential*/
+.three{
+    display: flex;
+    background-color: grey;
+}
+h1{
+    color: white;
+    font-size: 60px;
+    font-family: "Nirmala UI", serif;
+}
+h2{
+    color: white;
+    font-size: smaller;
+}
+h3{
+    font-size: 10px;
+    color: white;
+}
+/*Sidebord*/
+.Sidebord{
+    position: fixed;
+    float: left;
+    width: 23.2%;
+    height: 100%;
+    border: 3px solid #555;
+    background: black;
+}
+/*Cabecera*/
+.Cabecera{
+    margin-right: auto;
+    margin-left: 35%;
+}
+.Portada_foto{
+    background-image: url("img/Portada.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 1000px;
+    height: 400px;
+}
+.Titulo{
+    text-align: left;
+}
+.PrimeroTitulo{
+    position: relative;
+    top: 198px;
+    left: 45px;
+}
+.SegundoTitulo{
+    position: relative;
+    top: 170px;
+    left: 20px;
+}
+.TerceroTitulo {
+    position: relative;
+    top: 120px;
+    left: 20px;
+}
+.Forma_ovalada{
+    position: relative;
+    float: right;
+    right: 10px;
+    top: 70px;
+    width: 250px;
+    height: 50px;
+    border-radius: 20px;
+    background: rgb(15,15,15);
+}
+.CuartoTitulo {
+    float: right;
+    position: relative;
+    top: 77px;
+    left: 225px;
+}
+/*Cuerpo*/
+.Cuerpo{
+    color: #FFF;
+    background: #8C324A;
+    position:relative;
+    margin-left: 23.93%;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    height:50px;
+    width: 100%;
+}
+
+
+
